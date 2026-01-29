@@ -1,7 +1,79 @@
-p {
-    color: plum;
+:root { 
+    --bg: #2A2B2A;
+    --fg:  #FBF5F3;
+    --primary: lightpink;
+    --secondary : #832161;;
 }
 
+/*blocks*/
+
 body {
-    background-color: darkslategrey;
+    background-color: var(--bg);
+    font-family: Tahoma, Verdana, sans-serif;
 }
+
+header {
+    margin-top : 100px;
+    margin-bottom : 60px;
+    margin-right : auto;
+    margin-left : auto;
+    width: 500px;
+    border-bottom : 2px solid var(--primary);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    margin-top:30px;
+    border-top : 2px solid var(--primary);
+    margin-right : auto;
+    margin-left : auto;
+    width: 200px;
+    text-align: center;
+}
+
+/*texts*/
+
+h1, h2, h3, h4, h5, h6 {
+    color : var(--primary)
+}
+
+p {
+    color: var(--fg);    
+}
+
+
+/* Classes */
+.onglet{
+    color: var(--primary);
+    margin-bottom : 100px;
+    font-size: 18px;
+}
+
+.page{
+    margin-bottom:100px;
+    margin-right : auto;
+    margin-left : auto;
+    width: 500px;
+    text-align: left;
+}
+
+/*Ids*/
+#onlgetbloc{
+    margin-bottom: 20px;
+}
+
+#errdiv {
+    margin:auto;
+    width: 80%;
+    border: 2px solid var(--secondary);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#footertext{
+    color : var(--primary)
+}
+/*eeznjez*/

@@ -132,10 +132,18 @@ footer{
     #ongletbloc {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        width:95%;
     }
     .page{
         width: 95%;
+    }
+
+    .movie {
+        flex-direction: column;
+    }
+    
+    .movie div {
+        width:95%;
     }
 
 }

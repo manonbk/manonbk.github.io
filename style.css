@@ -73,7 +73,7 @@ p {
   margin-left : 10px;
 }
 .movie p {
-  align-items: center;
+  margin-top : 10px;
 }
 
 /*Ids*/

@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .onglet{
     color: var(--primary);
-    font-size: 28px;
+    font-size: 26px;
     text-decoration-line: none;
     margin-top:10px;
 }
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #onlgetbloc{
-    width:48%;
+    width:45%;
     margin:auto;
     display:flex;
     justify-content: space-evenly;
@@ -118,4 +118,24 @@ footer{
 
 #footertext{
     color : var(--primary)
+}
+
+
+/* FOR PHONE */
+
+@media (max-width: 768px) {
+
+    header {
+        width: 90%;
+        margin-top: 40px;
+    }
+    #ongletbloc {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .page{
+        width: 95%;
+    }
+
 }

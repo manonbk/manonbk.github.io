@@ -1,3 +1,5 @@
+/*GENERAL*/
+
 :root { 
     --bg: #2A2B2A;
     --fg:  #FBF5F3;
@@ -5,82 +7,95 @@
     --secondary : #832161;;
 }
 
-/*blocks*/
-
 body {
     background-color: var(--bg);
     font-family: Tahoma, Verdana, sans-serif;
-}
-
-header {
-    margin-top : 100px;
-    margin-bottom : 60px;
-    margin-right : auto;
-    margin-left : auto;
-    width:39%;
-    border-bottom : 2px solid var(--primary);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-footer{
-    margin-top:30px;
-    border-top : 2px solid var(--primary);
-    margin-right : auto;
-    margin-left : auto;
-    width: 20%;
-    text-align: center;
-}
-
-/*texts*/
-
-h1, h2, h3, h4, h5, h6 {
-    color : var(--primary)
 }
 
 p {
     color: var(--fg);    
 }
 
+/*HEAD*/
 
-/* Classes */
+header {
+    margin-top : 50px;
+    margin-bottom : 60px;
+    margin-right : auto;
+    margin-left : auto;
+    width:60%;
+    border-bottom : 2px solid var(--primary);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title a {
+    font-size: 50px;
+    text-decoration: none;
+    color: var(--primary);
+}
+.title a:hover {
+    color: var(--secondary);
+}
+
+/*MENU*/
+
+h1, h2, h3, h4, h5, h6 {
+    color : var(--primary)
+}
+
 .onglet{
     color: var(--primary);
-    margin-bottom : 100px;
-    font-size: 18px;
+    font-size: 28px;
+    text-decoration-line: none;
+    margin-top:10px;
 }
+
+.onglet:hover{
+    color:var(--secondary);
+}
+
+#onlgetbloc{
+    width:35%;
+    margin:auto;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+
+/* PAGE */
+
 
 .page{
     margin-bottom:100px;
     margin-right : auto;
     margin-left : auto;
-    width: 39%;
+    width: 60%;
     text-align: left;
 }
 
-/* to align movie image and description */
+/* MOVIE :to align movie image and description */
 .movie {
   width:100%;
-  overflow:auto;
+  display: flex;
+  justify-content: space-between;
 }
 .movie div {
-  width:45%;  
-  float:left;
-  margin-top : 10px;
-  margin-bottom : 10px;
-  margin-right : 10px;
-  margin-left : 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:47%;
 }
 .movie p {
-  margin-top : 10px;
+  text-align: justify;
 }
 
-/*Ids*/
-#onlgetbloc{
-    margin-bottom: 20px;
-}
 
+/*ERROR PAGE*/
 #errdiv {
     margin:auto;
     width: 80%;
@@ -90,7 +105,17 @@ p {
     align-items: center;
 }
 
+/*FOOT*/
+
+footer{
+    margin-top:30px;
+    border-top : 2px solid var(--primary);
+    margin-right : auto;
+    margin-left : auto;
+    width: 60%;
+    text-align: center;
+}
+
 #footertext{
     color : var(--primary)
 }
-/*eeznjez*/
